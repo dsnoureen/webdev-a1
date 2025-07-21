@@ -1,0 +1,9 @@
+footer nav li a{
+    text-decoration: none;
+}
+footer nav li{
+    list-style: none;
+}
+nav ul li{
+    display: flex;
+}
