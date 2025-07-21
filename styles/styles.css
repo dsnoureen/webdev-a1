@@ -1,3 +1,15 @@
+.header{
+    background-image: url("../images/Hero-bg.png");
+}
+
+nav section{
+    color: black;
+    width:528px;
+    height: 232px;
+    text-align: left;
+    display: flex;
+}
+
 .footerlogo{
     color: #4E47FF;
     font-size: 121px;
