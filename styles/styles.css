@@ -3,26 +3,41 @@
     font-size: 50px;
     font-weight: 900;
     max-width: 1440px;
-    height: 698px;
+    height: 700px;
 }
 nav{
     display: flex;
     justify-content: space-around;
 }
+.thousands{
+    max-width: 1140px;
+    height: 600px;
+    margin: 0 auto;
+    padding: 20px 0px 0px 20px;
+    text-align: center;
+}
 
 header p{
     text-align: center;
 }
+
 header div button{
     text-align: center;
 }
-.cool{
-    padding: 309px 269px 152px 267.5;
+
+.button-center{
+    text-align: center;
 }
-footer {
+
+header div {
+    padding: 60px 269px 90px 267px;
+   
+}
+.footer {
     max-width: 1440px;
-    height: 428px;
+    height: 550px;
     margin: 0 auto;
+    text-align: center;
 }
 .open-sans-inter {
     font-family: "Open Sans", sans-serif;
@@ -32,6 +47,12 @@ footer {
         "wdth" 100;
 }
 
+.see-in-action{
+     display: flex;
+     gap: 30px;
+     justify-content: space-around;
+     padding: 40px 50px 40px 50px;
+}
 .open-sans-raleway {
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
@@ -40,6 +61,9 @@ footer {
         "wdth" 100;
 }
 
+.flex-reviewer{
+    display: flex;
+}
 .black-font {
     color: #252432;
 }
@@ -47,6 +71,17 @@ footer {
 .ash-font {
     color: #8987A1;
 }
+.dark-ash-font{
+    color: #757575;
+}
+.reviewer-container{
+    display: flex;
+    justify-content: center;
+    width: 800px;
+    height: 100px;
+    gap: 60px;
+}
+
 
 .white-font {
     color: #FFFFFF;
@@ -56,10 +91,32 @@ footer {
     color: #4E47FF;
 }
 
-.footer-header {
+.thousands-headline{
+    
     font-size: 50px;
     font-weight: 900;
+    margin-bottom: 1px;
+}
+
+.choto-lekha{
+    margin-top: 1px;
+}
+
+.flex-thousands{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+.footer-header {
+    font-size: 50px;
+    font-weight: bolder;
     text-align: center;
+}
+
+.ready-to-focus{
+    font-weight: bold;
+    font-size: 2em;
+    margin-bottom: 60px;
 }
 
 footer ul li {
@@ -82,7 +139,7 @@ footer ul li a {
     color: #FFFFFF;
     padding: 10px;
     border: none;
-
+    margin-top: 2px;
 }
 
 input[type="email"],
@@ -116,4 +173,7 @@ form label {
 }
 .bg-color{
   background-color: rgb(239, 245, 245);
+}
+.bg-focus{
+    background-color: white;
 }
