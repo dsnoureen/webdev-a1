@@ -60,4 +60,40 @@ footer ul li a {
     border-radius: 5px;
     background-color: #4E47FF;
     color: #FFFFFF;
+    padding: 10px;
+    border: none;
+
+}
+
+input[type="email"],
+[type="text"] {
+    padding: 20px 100px 20px 32px;
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+.textarea {
+    padding: 20px 100px 20px 32px;
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+.touch-form {
+    display: flex;
+    gap: 60px;
+    max-width: 1140px;
+    height: 632px;
+    margin: 0 auto;
+    padding: 20px 0px 0px 20px;
+}
+
+form label {
+    font-weight: bold;
+}
+.bg-color{
+  background-color: rgb(239, 245, 245);
 }
