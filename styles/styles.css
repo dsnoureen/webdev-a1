@@ -1,9 +1,29 @@
+.header{
+    background-image: url("../images/Hero-bg.png");
+    font-size: 50px;
+    font-weight: 900;
+    max-width: 1440px;
+    height: 698px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+header p{
+    text-align: center;
+}
+header div button{
+    text-align: center;
+}
+.cool{
+    padding: 309px 269px 152px 267.5;
+}
 footer {
     max-width: 1440px;
     height: 428px;
     margin: 0 auto;
 }
-
 .open-sans-inter {
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
