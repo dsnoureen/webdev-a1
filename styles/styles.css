@@ -23,7 +23,7 @@ nav {
 
 .users {
     max-width: 1140px;
-    height: 400px;
+    height: 350px;
     margin: 0 auto;
     padding: 20px 0px 0px 20px;
     text-align: center;
@@ -85,7 +85,7 @@ header div {
 
 .flex-reviewer {
     display: flex;
-    gap: 60px;
+    gap: 10px;
 }
 
 .black-font {
@@ -103,9 +103,15 @@ header div {
 .reviewer-container {
     display: flex;
     justify-content: center;
-    width: 800px;
-    height: 100px;
-    gap: 60px;
+    width: 900px;
+    height: 90px;
+    gap: 150px;
+    padding: 10px 100px 10px 100px;
+    border-radius: 5px;
+}
+
+.reviewer {
+    border: 50px 50px whitesmoke;
 }
 
 .white-font {
@@ -169,7 +175,7 @@ footer ul li a {
     cursor: pointer;
 }
 
-button:hover {
+.button:hover {
     background-color: #322e96;
 }
 
@@ -200,7 +206,7 @@ input[type="email"],
 
 .touch-form {
     display: flex;
-    gap: 150px;
+    gap: 30px;
     max-width: 1140px;
     height: 600px;
     margin: 0 auto;
@@ -208,7 +214,7 @@ input[type="email"],
 }
 
 .form {
-    padding: 20px 0px 0px 20px;
+    padding: 20px 20px 0px 20px;
     width: 30%;
 }
 
@@ -222,4 +228,8 @@ form label {
 
 .bg-focus {
     background-color: white;
+}
+
+.name-date {
+    text-align: justify;
 }
